@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tarea_7", "tarea_7.csproj", "{8824ACCA-74F0-489D-BCB9-973A4597B867}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "front", "..\front\front.csproj", "{FFE67EF4-3A1B-40A1-A122-A848590EF85F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8824ACCA-74F0-489D-BCB9-973A4597B867} = {8824ACCA-74F0-489D-BCB9-973A4597B867}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8824ACCA-74F0-489D-BCB9-973A4597B867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8824ACCA-74F0-489D-BCB9-973A4597B867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8824ACCA-74F0-489D-BCB9-973A4597B867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8824ACCA-74F0-489D-BCB9-973A4597B867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE67EF4-3A1B-40A1-A122-A848590EF85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE67EF4-3A1B-40A1-A122-A848590EF85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE67EF4-3A1B-40A1-A122-A848590EF85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE67EF4-3A1B-40A1-A122-A848590EF85F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2DEF120-2C6C-4D00-A276-98259A6C7DFD}
+	EndGlobalSection
+EndGlobal
